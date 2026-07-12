@@ -134,7 +134,7 @@ Mathematics gives a computer scientist three superpowers:
 
 ## Prerequisites
 
-None. This phase assumes only **school-level arithmetic** (addition, multiplication, fractions). Everything else is built from scratch, first at the "explain it to a 15-year-old" level, then upward.
+None. This phase assumes only **school-level arithmetic** (addition, multiplication, fractions). Everything else is built from scratch.
 
 ---
 
@@ -168,7 +168,7 @@ flowchart LR
 
 ## Learning Objectives
 
-By the end of this phase, you will be able to:
+By the end of this, you will be able to:
 
 - Explain _why_ a machine learning model "learns" using calculus and optimization.
 - Represent and manipulate data using vectors and matrices, by hand and in code.
@@ -178,19 +178,16 @@ By the end of this phase, you will be able to:
 
 ---
 
-## How This Connects to Previous Phases
+## How This Connects to Previous
 
-This is **Phase 1** — the foundation. There is no previous phase. This is where the whole journey begins.
+This is <b>01-Mathematics</b> — the foundation. There is no previous phase. This is where the whole journey begins.
 
 ---
 
 ## How It Connects to Later Phases
 
-- **Phase 2 (Discrete Mathematics & Logic)** builds directly on the notion of formal reasoning introduced here.
-- **Data Structures & Algorithms** uses growth rates, which are best understood after Calculus (limits) and Discrete Math.
-- **Machine Learning / AI** is essentially Linear Algebra + Calculus + Probability + Optimization, applied to data.
-- **Computer Graphics** uses Linear Algebra (transformations) and Calculus (motion, lighting) extensively.
-- **Cryptography** leans on Probability and Number Theory.
+- **02-Data-Structures-and-Algorithms** uses growth rates, which are best understood after Calculus (limits) and Discrete Math.
+- **12-Machine-Learning** is essentially Linear Algebra + Calculus + Probability + Optimization, applied to data.
 
 ---
 
@@ -238,13 +235,6 @@ This is **Phase 1** — the foundation. There is no previous phase. This is wher
 - [3Blue1Brown — Essence of Linear Algebra / Calculus (YouTube)](https://www.3blue1brown.com)
 - [Khan Academy](https://www.khanacademy.org)
 - [Stanford CS229 Math Notes](https://cs229.stanford.edu)
-
-## Practice Resources
-
-- Khan Academy practice exercises
-- Brilliant.org interactive problems
-- GATE previous year papers (Engineering Mathematics section)
-- Paul's Online Math Notes (practice problems with solutions)
 
 ## Projects
 
@@ -301,4 +291,4 @@ Proceed in this order:
 4. Then [`Statistics.md`](./Statistics.md)
 5. Then [`Optimization.md`](./Optimization.md)
 
-After finishing this phase, proceed to **Phase 2 — Discrete Mathematics & Logic**.
+After finishing this phase, proceed to **02-Data-Structures-and-Algorithms**.
