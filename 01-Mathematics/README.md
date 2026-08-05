@@ -2,8 +2,6 @@
 
 > "Computer Science is not about computers, and it is not really about science either. It is about mathematics wearing a machine's clothes." — a professor's honest confession, on day one.
 
-This is **Phase 1** of the `msc-computer-science` repository. Every later phase — Data Structures, Algorithms, Machine Learning, Compilers, Cryptography, Computer Graphics, everything — quietly leans on the ideas in this folder. If Phase 1 is solid, everything after it becomes _easier_, not harder.
-
 ---
 
 ## Table of Contents
@@ -134,7 +132,7 @@ Mathematics gives a computer scientist three superpowers:
 
 ## Prerequisites
 
-None. This phase assumes only **school-level arithmetic** (addition, multiplication, fractions). Everything else is built from scratch.
+None. This phase assumes only **school-level arithmetic** (addition, multiplication, fractions). Everything else is built from scratch, first at the "explain it to a 15-year-old" level, then upward.
 
 ---
 
@@ -168,7 +166,7 @@ flowchart LR
 
 ## Learning Objectives
 
-By the end of this, you will be able to:
+By the end of this phase, you will be able to:
 
 - Explain _why_ a machine learning model "learns" using calculus and optimization.
 - Represent and manipulate data using vectors and matrices, by hand and in code.
@@ -178,16 +176,12 @@ By the end of this, you will be able to:
 
 ---
 
-## How This Connects to Previous
-
-This is <b>01-Mathematics</b> — the foundation. There is no previous phase. This is where the whole journey begins.
-
----
-
 ## How It Connects to Later Phases
 
-- **02-Data-Structures-and-Algorithms** uses growth rates, which are best understood after Calculus (limits) and Discrete Math.
-- **12-Machine-Learning** is essentially Linear Algebra + Calculus + Probability + Optimization, applied to data.
+- **Data Structures & Algorithms** uses growth rates, which are best understood after Calculus (limits) and Discrete Math.
+- **Machine Learning / AI** is essentially Linear Algebra + Calculus + Probability + Optimization, applied to data.
+- **Computer Graphics** uses Linear Algebra (transformations) and Calculus (motion, lighting) extensively.
+- **Cryptography** leans on Probability and Number Theory.
 
 ---
 
@@ -201,7 +195,7 @@ This is <b>01-Mathematics</b> — the foundation. There is no previous phase. Th
 
 ---
 
-## Estimated Study Time
+## Estimated Time
 
 | Topic          | Beginner Pace | Fast Pace      |
 | -------------- | ------------- | -------------- |
@@ -235,6 +229,13 @@ This is <b>01-Mathematics</b> — the foundation. There is no previous phase. Th
 - [3Blue1Brown — Essence of Linear Algebra / Calculus (YouTube)](https://www.3blue1brown.com)
 - [Khan Academy](https://www.khanacademy.org)
 - [Stanford CS229 Math Notes](https://cs229.stanford.edu)
+
+## Practice Resources
+
+- Khan Academy practice exercises
+- Brilliant.org interactive problems
+- GATE previous year papers (Engineering Mathematics section)
+- Paul's Online Math Notes (practice problems with solutions)
 
 ## Projects
 
@@ -290,5 +291,3 @@ Proceed in this order:
 3. Then [`Probability.md`](./Probability.md)
 4. Then [`Statistics.md`](./Statistics.md)
 5. Then [`Optimization.md`](./Optimization.md)
-
-After finishing this phase, proceed to **02-Data-Structures-and-Algorithms**.
