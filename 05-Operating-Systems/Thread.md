@@ -28,7 +28,7 @@ Process (one kitchen):
 - Early operating systems (1960s–70s) had no concept of threads — the process WAS the only unit of execution.
 - **Threads emerged in the 1980s–90s** as researchers and OS designers recognized that many concurrent tasks (e.g., serving multiple network clients) didn't need full process isolation, just genuine concurrency with shared state.
 - The **POSIX Threads (Pthreads) standard**, finalized in the mid-1990s, provided a portable threading API that became foundational across Unix-like systems.
-- Modern languages have since built increasingly high-level concurrency abstractions atop OS threads (Java's `Thread`/`ExecutorService`, Python's `threading` module, Go's goroutines — though goroutines are actually a different, lighter-weight model built ON TOP of OS threads).
+- Modern languages have since built increasingly high-level concurrency abstractions a top OS threads (Java's `Thread`/`ExecutorService`, Python's `threading` module, Go's goroutines — though goroutines are actually a different, lighter-weight model built ON TOP of OS threads).
 
 ## Mathematical foundation
 
