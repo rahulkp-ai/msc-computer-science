@@ -212,7 +212,7 @@ frequently-tested exception case).
 
 ```mermaid
 flowchart LR
-    Start([Identify functional dependencies from real-world rules]) --> Key[Determine candidate key(s)]
+    Start([Identify functional dependencies from real-world rules]) --> Key[Determine candidate key's]
     Key --> Check1[Check 1NF: atomic values?]
     Check1 --> Check2[Check 2NF: no partial dependency?]
     Check2 --> Check3[Check 3NF: no transitive dependency?]
