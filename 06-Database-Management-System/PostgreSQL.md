@@ -431,5 +431,3 @@ PostgreSQL is where every concept in this phase — ER modeling, normalization, 
 ⬅ Back to [Phase 06 — Database Management Systems README](./README.md)
 
 ---
-
-🎉 **This completes Phase 06 — Database Management Systems.** You've now covered ER modeling, normalization, SQL, indexing, transactions, and query optimization, and seen every one of these concepts made concrete in a real, production-grade database system. Proceed to the next phase in your roadmap when ready.
