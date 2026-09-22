@@ -193,8 +193,8 @@ flowchart LR
     Start([Query with WHERE clause on column X]) --> Check{Index exists on X?}
     Check -->|Yes| UseIndex[Use index: traverse B-Tree to find matching rows]
     Check -->|No| FullScan[Full table scan: check every row]
-    UseIndex --> Fast([Fast: O log n]))
-    FullScan --> Slow([Slow: O n]))
+    UseIndex --> Fast([Fast: O log n])
+    FullScan --> Slow([Slow: O n])
 ```
 
 ## Example
